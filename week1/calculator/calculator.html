@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="calculator.css">
+  <title>Calculator</title>
+
+
+</head>
+
+<body>
+  <div class="container">
+    <button type="button" onclick="c()">c</button>
+    <input type="text" name="screen" value="" placeholder="0" id="input">
+    <button type="button" onclick="add('1')">1</button>
+    <button type="button" onclick="add('2')">2</button>
+    <button type="button" onclick="add('3')">3</button>
+    <button  class="color" type="button" onclick="add('+')">+</button>
+    <button type="button" onclick="add('4')">4</button>
+    <button type="button" onclick="add('5')">5</button>
+    <button type="button" onclick="add('6')">6</button>
+    <button  class="color" type="button" onclick="add('-')">-</button>
+    <button type="button" onclick="add('7')">7</button>
+    <button type="button" onclick="add('8')">8</button>
+    <button type="button" onclick="add('9')">9</button>
+    <button class="color" type="button" onclick="add('*')">×</button>
+    <button type="button" onclick="add('0')">0</button>
+    <button type="button" onclick="add('.')">.</button>
+    <button  class="color"type="button" onclick="cal()">=</button>
+    <button  class="color" type="button" onclick="add('/')">÷</button>
+
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>

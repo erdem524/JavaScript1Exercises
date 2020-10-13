@@ -1,0 +1,34 @@
+body {
+  background-color: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #f5c803;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  background: #80c0ff;
+  border-radius: 10px;
+}
+button {
+  border: 5px solid gold;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+input {
+  grid-column: 2/5;
+  text-align: right;
+  font-size: 30px;
+  border-radius: 6px;
+}
+
+button:last-child {
+  grid-column: 4/5;
+  background-color: #fff;
+}
